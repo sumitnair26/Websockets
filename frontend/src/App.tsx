@@ -4,13 +4,13 @@ import './App.css'
 function App() {
   const [socket, setSocket] = useState<WebSocket | null>(null);
   const [message, setMessages] = useState([]);
-  //const [inputText, setInputText] = useState("");
+  const [inputTextMessage, setInputTextMessage] = useState("");
 
   useEffect(() => {
     const newSocket = new WebSocket('ws://localhost:8080');
     newSocket.onopen = () => {
       console.log('Connection established');
-      newSocket.send('Hello Server!');
+      newSocket.send(inputTextMessage);
     }
     newSocket.onmessage = (message) => {
       console.log('Message received:', message.data);
@@ -28,11 +28,20 @@ function App() {
   ) }
   return (
     <>
-      <input ></input>
+      <input onChange={(e)=>{
+        setInputTextMessage(e.target.value)
+      }} ></input>
       <button onClick={()=>{
-        socket.send("Sending message from Frontend");
+        socket.send(inputTextMessage);
       }}>Send</button>
-      {message}
+      
+      <div>
+      {message.map(msg => (  
+          <li>  
+            {msg}  
+          </li>  
+        ))} 
+      </div> 
     </>
   )
 }
