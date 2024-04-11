@@ -123,3 +123,24 @@ The application will start at  `http://localhost:5174/`  by default.
   
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+## Screenshot 
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/b8d078c6-d795-49c0-9e22-85561eb32818)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/f3bdd645-3f7e-48ee-9daf-52bf46fbe705)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/1f7ee212-238b-4684-8b1c-950873c7946f)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/4cd7fe1f-5e19-4d62-94f5-fbe33394c50e)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/9f1e7c45-d4c2-453a-9ff0-fbb8e6d8d3ff)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/b796d21a-4fb0-4261-9947-f1a423a19b5a)
+
+![image](https://github.com/sumitnair26/Websockets/assets/24470385/f1b479bd-8a92-4f23-ad03-c372d3441b8c)
+
+
+
+
+
