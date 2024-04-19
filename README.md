@@ -124,7 +124,7 @@ The application will start at  `http://localhost:5174/`  by default.
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
-## Screenshot 
+## Screenshot's
 
 ![image](https://github.com/sumitnair26/Websockets/assets/24470385/b8d078c6-d795-49c0-9e22-85561eb32818)
 
